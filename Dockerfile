@@ -1,6 +1,6 @@
 FROM      ruby
-VOLUME    /home
-WORKDIR   /home
+VOLUME    /data
+WORKDIR   /data
 
 RUN       gem install rspec
 
